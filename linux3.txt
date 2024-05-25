@@ -1,0 +1,66 @@
+
+
+PERMISSIONS AND OWNERSHIPS
+
+user
+group
+others
+
+---x---r--. 1 root root  34 Apr 22 02:15 file102
+-rw-r--r--. 1 root root   0 Apr 22 02:12 file
+-rwxrwxrwx. 1 root root   0 Apr 22 02:12 file
+-r--rw-r-x. 1 root root   0 Apr 22 02:12 file
+
+r - read - 4
+w - write - 2
+x - execute - 1
+
+104
+644
+777
+465
+
+chmod 465 file
+=====================================================
+
+Users and Groups
+
+users -- to show current users
+
+cat /etc/passwd -- to show list of users
+
+useradd username --- to add new user
+
+cat /etc/group -- to show list of groups
+
+groupadd groupname -- to add new group
+
+usermod -a -G group username -- to add user to a group
+
+gpasswd -d Harika Testing -- to remove a user from group
+
+ groupdel Testing --- to delete  a group
+
+ userdel Harika  --- to delete a user
+
+ passwd -l Harika1 --- to lock a user
+
+ passwd -u Harika1  --- to unlock a user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
